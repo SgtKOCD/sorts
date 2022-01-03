@@ -1,0 +1,16 @@
+ilk adım --> [22,27,16,2,18,6]--> 27 sayısı, 22denküçük değil-------------n
+2. adım ---> [16,22,27,2,18,6]--> 16 sayısı, 22 ve 27den küçük------------n-1
+3. adım ---> [2,16,22,27,18,6]--> 2 rakamı, 16, 22 ve 27 den küçük--------n-2
+4. adım ---> [2,16,18,22,27,6]--> 18 sayısı, 22 ve 27 den küçük-----------n-3
+5. adım ---> [2,6,16,18,22,27]--> 6 rakamı, 16, 18, 22 ve 27 den küçük----1
+
+BigO --> n^2
+Time Complexity: worst-case
+sıralandıktan sonra: Average-Case'dir.
+
+[7,3,5,8,2,9,4,15,6] dizinin ilk 4 adımı:
+
+[3,7,5,8,2,9,4,15,6] --> 1. adım
+[3,5,7,8,2,9,4,15,6] --> 2. adım
+[3,5,7,8,2,9,4,15,6] --> 3. adım sıralama değişmez çünkü 7 rakamı 8 den küçüktür.
+[2,3,5,7,8,9,4,15,6] --> 4. adım
